@@ -12,6 +12,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
+	font-display: swap;
 }
 
 img {
