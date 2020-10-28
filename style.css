@@ -167,7 +167,7 @@ header {
 							/*SLIDER*/
 
 .testimonials {
-	background: url(img/slider_bg.png);
+	background-image: url("img/slider_bg.webp");
 	background-position: center center;
 	max-height: 100%;
 	margin-top: 100px;
