@@ -69,6 +69,11 @@ header {
 	border-radius: 5px;
 	background-color: #fff;
 	color: #061e37;
+	margin-right: 30px;
+}
+
+.buttons a:nth-child(2) {
+	margin-right: 0;
 }
 
 .buttons a:hover {
@@ -565,6 +570,15 @@ footer {
 		margin: 0;
 	}
 
+	.contact-form input:nth-child(1),.contact-form input:nth-child(2),
+	.contact-form input:nth-child(3),.contact-form input:nth-child(4) {
+		width: 100%;
+	}
+
+	.contact-form input:nth-child(5) {
+		margin-bottom: 30px;
+	}
+
 	.footer-up, .footer-down {
 		flex-direction: column;
 		justify-content: center;
@@ -642,5 +656,9 @@ footer {
 
 	.contact-form-checkbox button, .contact-form-checkbox input {
 		margin-top: 20px;
+	}
+
+	.buttons a {
+		margin-right: 0;
 	}
 }
